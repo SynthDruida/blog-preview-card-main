@@ -1,92 +1,93 @@
 html {
-    font-family: "figtree";
+  font-family: "figtree";
 }
 
 body {
-    background-color: hsl(47, 88%, 63%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .box {
-    background-color: hsl(0, 0%, 100%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 0.12em solid black;
-    border-radius: 20px;
-    border-color: hsl(0, 0%, 7%);
-    width: 375px;
-    height: 500px;
-    box-shadow: 12px 12px 2px -4px;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 0.12em solid black;
+  border-radius: 20px;
+  border-color: hsl(0, 0%, 7%);
+  width: 375px;
+  height: 500px;
+  box-shadow: 12px 12px 2px -4px;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    padding-left: 1.37em;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.37em;
 }
 
 .svgd {
-    align-self: center;
-    margin-top: -1.8em;
-    margin-bottom: 1em;
+  align-self: center;
+  margin-top: -1.8em;
+  margin-bottom: 1em;
 }
 
 svg {
-   border-radius: 15px;
+  border-radius: 15px;
 }
 
 .minibox {
-    background-color: hsl(47, 88%, 63%);
-    font-weight: 800;
-    font-size: 12px;
-    border-radius: 0.3em;
-    max-width: 4em;
-    padding: 0.4em 0.8em;
-    margin-bottom: 0.2em;
+  background-color: hsl(47, 88%, 63%);
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 0.3em;
+  max-width: 4em;
+  padding: 0.4em 0.8em;
+  margin-bottom: 0.2em;
 }
 
 h2 {
-    font-size: 11px;
-    font-weight: 700;
-    color: hsl(0, 0%, 7%);
+  font-size: 11px;
+  font-weight: 700;
+  color: hsl(0, 0%, 7%);
 }
 
 h1 {
-    font-weight: 800;
-    font-size: 1.4em;
+  font-weight: 800;
+  font-size: 1.4em;
 }
 
-h1:hover, h1:focus {
-    color: hsl(47, 88%, 63%);
-    cursor: pointer;
+h1:hover,
+h1:focus {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
 }
 
 p {
-    font-size: 16px;
-    color: hsl(0, 0%, 42%);
-    font-weight: 500;
+  font-size: 16px;
+  color: hsl(0, 0%, 42%);
+  font-weight: 500;
 }
 
 footer {
-    display: flex;
-    padding-left: 1.37em;
-    margin-top: 0.8em;
-    margin-bottom: -1em;
+  display: flex;
+  padding-left: 1.37em;
+  margin-top: 0.8em;
+  margin-bottom: -1em;
 }
 
 img {
-    width: 1.7em;
-    height: 1.7em;
+  width: 1.7em;
+  height: 1.7em;
 }
 
 .author {
-    font-weight: 800;
-    font-size: 13px;
-    padding-left: 0.8em;
-    padding-top: 0.5em;
+  font-weight: 800;
+  font-size: 13px;
+  padding-left: 0.8em;
+  padding-top: 0.5em;
 }
